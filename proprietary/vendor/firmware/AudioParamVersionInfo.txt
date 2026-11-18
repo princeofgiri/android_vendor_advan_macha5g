@@ -1,0 +1,3 @@
+CPU:MT6855
+chip:AW87391*2
+version:AD-S50-20250825

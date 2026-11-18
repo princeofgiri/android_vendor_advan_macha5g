@@ -1,0 +1,33 @@
+on post-fs-data
+# GPU freq
+chown system system /proc/gpufreqv2/gpu_working_opp_table
+chmod 0660 /proc/gpufreqv2/gpu_working_opp_table
+chown system system /proc/gpufreqv2/fix_target_opp_index
+chmod 0660 /proc/gpufreqv2/fix_target_opp_index
+
+chown system system /sys/class/odm_charger/thermal_charging_curr_limit
+chmod 0660 /sys/class/odm_charger/thermal_charging_curr_limit
+chown system system /sys/class/odm_charger/thermal_input_curr_limit
+chmod 0660 /sys/class/odm_charger/thermal_input_curr_limit
+
+chown system system /sys/devices/system/cpu/cpu0/online
+chmod 0660 /sys/devices/system/cpu/cpu0/online
+chown system system /sys/devices/system/cpu/cpu1/online
+chmod 0660 /sys/devices/system/cpu/cpu1/online
+chown system system /sys/devices/system/cpu/cpu2/online
+chmod 0660 /sys/devices/system/cpu/cpu2/online
+chown system system /sys/devices/system/cpu/cpu3/online
+chmod 0660 /sys/devices/system/cpu/cpu3/online
+chown system system /sys/devices/system/cpu/cpu4/online
+chmod 0660 /sys/devices/system/cpu/cpu4/online
+chown system system /sys/devices/system/cpu/cpu5/online
+chmod 0660 /sys/devices/system/cpu/cpu5/online
+chown system system /sys/devices/system/cpu/cpu6/online
+chmod 0660 /sys/devices/system/cpu/cpu6/online
+chown system system /sys/devices/system/cpu/cpu7/online
+chmod 0660 /sys/devices/system/cpu/cpu7/online
+
+chown system system /sys/devices/system/cpu/cpufreq/policy0/scaling_available_frequencies
+#VTS:chmod 0660 /sys/devices/system/cpu/cpufreq/policy0/scaling_available_frequencies
+chown system system /sys/devices/system/cpu/cpufreq/policy6/scaling_available_frequencies
+#VTS:chmod 0660 /sys/devices/system/cpu/cpufreq/policy6/scaling_available_frequencies
