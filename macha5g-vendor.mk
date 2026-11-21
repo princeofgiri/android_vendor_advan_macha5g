@@ -9,8 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/macha5g/proprietary/vendor/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt6855:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt6855 \
     vendor/advan/macha5g/proprietary/vendor/bin/hw/mt6855/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6855/camerahalserver \
     vendor/advan/macha5g/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
-    vendor/advan/macha5g/proprietary/vendor/lib64/libapexsupport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapexsupport.so \
-    vendor/advan/macha5g/proprietary/vendor/lib/libapexsupport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapexsupport.so \
     vendor/advan/macha5g/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
     vendor/advan/macha5g/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.memtrack-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.memtrack-V1-ndk.so \
