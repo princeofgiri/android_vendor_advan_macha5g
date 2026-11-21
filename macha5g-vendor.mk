@@ -6,6 +6,25 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/advan/macha5g
 
 PRODUCT_COPY_FILES += \
+    vendor/advan/macha5g/proprietary/vendor/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt6855:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6855/android.hardware.graphics.allocator@4.0-service-mediatek.mt6855 \
+    vendor/advan/macha5g/proprietary/vendor/bin/hw/mt6855/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6855/camerahalserver \
+    vendor/advan/macha5g/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
+    vendor/advan/macha5g/proprietary/vendor/lib64/libapexsupport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapexsupport.so \
+    vendor/advan/macha5g/proprietary/vendor/lib/libapexsupport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapexsupport.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
+    vendor/advan/macha5g/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.memtrack-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.memtrack-V1-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib/android.hardware.memtrack-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.memtrack-V1-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.light-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V1-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib/android.hardware.light-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.light-V1-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.security.rkp-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.rkp-V3-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.security.keymint-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V3-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.security.sharedsecret-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.sharedsecret-V1-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/android.hardware.security.secureclock-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.secureclock-V1-ndk.so \
+    vendor/advan/macha5g/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
+    vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustonic.rc \
+    vendor/advan/macha5g/proprietary/vendor/lib64/hw/mt6855/gralloc.rogue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt6855.so \
+    vendor/advan/macha5g/proprietary/vendor/lib/hw/mt6855/gralloc.rogue.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6855.so \
     vendor/advan/macha5g/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/advan/macha5g/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/advan/macha5g/proprietary/vendor/app/mcRegistry/031c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/031c0000000000000000000000000000.drbin \
@@ -224,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustonic.rc \
     vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/advan/macha5g/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
@@ -914,6 +932,8 @@ PRODUCT_COPY_FILES += \
     vendor/advan/macha5g/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/advan/macha5g/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
     vendor/advan/macha5g/proprietary/vendor/firmware/rgx.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.fw \
+    vendor/advan/macha5g/proprietary/vendor/firmware/rgx.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.fw.35.3.408.101 \
+    vendor/advan/macha5g/proprietary/vendor/firmware/rgx.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.fw.35.3p.408.101 \
     vendor/advan/macha5g/proprietary/vendor/firmware/rgx.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.sh \
     vendor/advan/macha5g/proprietary/vendor/firmware/soc2_2_ram_bt_1b_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1b_1_hdr.bin \
     vendor/advan/macha5g/proprietary/vendor/firmware/soc2_2_ram_bt_1c_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1c_1_hdr.bin \
@@ -1800,14 +1820,11 @@ PRODUCT_PACKAGES += \
     c2k_usb_f_via_modem \
     c2k_usb_f_via_pcv \
     cam_qos \
-    camera_dip_isp6s \
     camera_eeprom \
     camera_fdvt_isp51 \
     camera_isp \
     camera_mem \
-    camera_mfb_isp6s \
     camera_rsc_isp60 \
-    camera_wpe_isp6s \
     ccci_auxadc \
     ccci_ccif \
     ccci_dpmaif \
@@ -1979,14 +1996,14 @@ PRODUCT_PACKAGES += \
     SensorHub \
     TetheringResOverlay \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
-    android.hardware.security.keymint-service.trustonic.xml \
-    android.hardware.security.secureclock-service.trustonic.xml \
-    android.hardware.security.sharedsecret-service.trustonic.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     android.hardware.wifi@1.0-service.xml \
     gnss@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
     lights-mtk-default.xml \
+    android.hardware.security.keymint-service.trustonic.xml \
+    android.hardware.security.secureclock-service.trustonic.xml \
+    android.hardware.security.sharedsecret-service.trustonic.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_apuware_apusys.xml \
@@ -2045,7 +2062,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.nfc@1.2-service-st \
     android.hardware.secure_element@1.2-service-mediatek \
-    android.hardware.security.keymint-service.trustonic \
     android.hardware.sensors@2.0-service.multihal-mediatek \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.2-service-mediatekv2 \
@@ -2066,6 +2082,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.pri.hardware.biometrics.fingerprint-service \
     vendor.trustonic.tee@1.1-service \
+    android.hardware.security.keymint-service.trustonic \
     vtservice_hidl \
     wpa_supplicant \
     init.insmod \

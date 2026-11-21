@@ -1,2 +1,2 @@
 # Soft dependencies extracted from modules themselves.
-softdep sspm_v3 pre: tinysys-scmi.ko
+softdep sspm_v3 pre: tinysys-scmi.ko

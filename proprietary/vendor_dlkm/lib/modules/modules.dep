@@ -68,7 +68,6 @@
 /vendor_dlkm/lib/modules/aw36518.ko: /vendor_dlkm/lib/modules/flashlight.ko /vendor_dlkm/lib/modules/mtk_bp_thl.ko /vendor_dlkm/lib/modules/mtk_battery_oc_throttling.ko /vendor_dlkm/lib/modules/mtk_pbm.ko /vendor_dlkm/lib/modules/mtk_mdpm.ko /vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko /vendor_dlkm/lib/modules/mtk_low_battery_throttling.ko
 /vendor_dlkm/lib/modules/mtk-mbox.ko:
 /vendor_dlkm/lib/modules/mtk_pbm.ko: /vendor_dlkm/lib/modules/mtk_mdpm.ko /vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko /vendor_dlkm/lib/modules/mtk_low_battery_throttling.ko
-/vendor_dlkm/lib/modules/camera_dip_isp6s.ko:
 /vendor_dlkm/lib/modules/vdec-fmt.ko:
 /vendor_dlkm/lib/modules/gz_virtio_mod.ko: /vendor_dlkm/lib/modules/gz_trusty_mod.ko
 /vendor_dlkm/lib/modules/mtk_md_power_throttling.ko: /vendor_dlkm/lib/modules/ccci_md_all.ko /vendor_dlkm/lib/modules/ccmni.ko /vendor_dlkm/lib/modules/rps_perf.ko /vendor_dlkm/lib/modules/ccci_auxadc.ko /vendor_dlkm/lib/modules/ccci_util_lib.ko /vendor_dlkm/lib/modules/mtk_battery_oc_throttling.ko /vendor_dlkm/lib/modules/mtk_pbm.ko /vendor_dlkm/lib/modules/mtk_mdpm.ko /vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko /vendor_dlkm/lib/modules/mtk_low_battery_throttling.ko
@@ -127,7 +126,6 @@
 /vendor_dlkm/lib/modules/mtk-scp-vow.ko: /vendor_dlkm/lib/modules/mtk-vow.ko /vendor_dlkm/lib/modules/scp.ko /vendor_dlkm/lib/modules/mtk-afe-external.ko /vendor_dlkm/lib/modules/mtk_tinysys_ipi.ko /vendor_dlkm/lib/modules/mtk_rpmsg_mbox.ko /vendor_dlkm/lib/modules/mtk-mbox.ko
 /vendor_dlkm/lib/modules/ccci_md_all.ko: /vendor_dlkm/lib/modules/ccmni.ko /vendor_dlkm/lib/modules/rps_perf.ko /vendor_dlkm/lib/modules/ccci_auxadc.ko /vendor_dlkm/lib/modules/ccci_util_lib.ko /vendor_dlkm/lib/modules/mtk_pbm.ko /vendor_dlkm/lib/modules/mtk_mdpm.ko /vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko /vendor_dlkm/lib/modules/mtk_low_battery_throttling.ko
 /vendor_dlkm/lib/modules/mtk-composite.ko:
-/vendor_dlkm/lib/modules/camera_mfb_isp6s.ko:
 /vendor_dlkm/lib/modules/main3af.ko:
 /vendor_dlkm/lib/modules/met_mcupm_api.ko: /vendor_dlkm/lib/modules/mcupm.ko /vendor_dlkm/lib/modules/mtk_tinysys_ipi.ko /vendor_dlkm/lib/modules/mtk_rpmsg_mbox.ko /vendor_dlkm/lib/modules/mtk-mbox.ko /vendor_dlkm/lib/modules/met.ko
 /vendor_dlkm/lib/modules/mtk_usb_f_rndis.ko: /vendor_dlkm/lib/modules/mtk_u_ether.ko /vendor_dlkm/lib/modules/rps_perf.ko
@@ -169,7 +167,6 @@
 /vendor_dlkm/lib/modules/met_emi_api.ko: /vendor_dlkm/lib/modules/met.ko
 /vendor_dlkm/lib/modules/snd-soc-mtk-scp-ultra.ko: /vendor_dlkm/lib/modules/mtk-scp-ultra.ko /vendor_dlkm/lib/modules/scp.ko /vendor_dlkm/lib/modules/mtk-afe-external.ko /vendor_dlkm/lib/modules/mtk_tinysys_ipi.ko /vendor_dlkm/lib/modules/mtk_rpmsg_mbox.ko /vendor_dlkm/lib/modules/mtk-mbox.ko
 /vendor_dlkm/lib/modules/connfem.ko:
-/vendor_dlkm/lib/modules/camera_wpe_isp6s.ko:
 /vendor_dlkm/lib/modules/gz_tz_system.ko: /vendor_dlkm/lib/modules/gz_ipc_mod.ko /vendor_dlkm/lib/modules/gz_trusty_mod.ko
 /vendor_dlkm/lib/modules/mtk_jpeg.ko:
 /vendor_dlkm/lib/modules/ged.ko: /vendor_dlkm/lib/modules/mtk_gpu_qos.ko /vendor_dlkm/lib/modules/mtk_gpufreq_wrapper.ko /vendor_dlkm/lib/modules/mtk_pbm.ko /vendor_dlkm/lib/modules/mtk_mdpm.ko /vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko /vendor_dlkm/lib/modules/mtk_low_battery_throttling.ko /vendor_dlkm/lib/modules/gpueb.ko /vendor_dlkm/lib/modules/mtk_tinysys_ipi.ko /vendor_dlkm/lib/modules/mtk_rpmsg_mbox.ko /vendor_dlkm/lib/modules/mtk-mbox.ko /vendor_dlkm/lib/modules/mtk-ssc.ko /vendor_dlkm/lib/modules/mtk_gpu_hal.ko /vendor_dlkm/lib/modules/mtk_qos.ko /vendor_dlkm/lib/modules/sspm_v3.ko

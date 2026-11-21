@@ -155,7 +155,7 @@ alias of:N*T*Cmediatek,camera-pda2 pda_drv_mt6855
 alias of:N*T*Cmediatek,camera-pda2C* pda_drv_mt6855
 alias of:N*T*Cmediatek,mt6855-sound snd_soc_mt6855_afe
 alias of:N*T*Cmediatek,mt6855-soundC* snd_soc_mt6855_afe
-alias mt6855 mt6369 soc card mt6855_mt6369
+# alias mt6855 mt6369 soc card mt6855_mt6369
 alias of:N*T*Cmediatek,mt8173-vcodec-enc mtk_vcodec_enc_v1
 alias of:N*T*Cmediatek,mt8173-vcodec-encC* mtk_vcodec_enc_v1
 alias of:N*T*Cmediatek,mt2712-vcodec-enc mtk_vcodec_enc_v1
