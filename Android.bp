@@ -3950,6 +3950,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libeffects",
     owner: "advan",
@@ -3972,6 +3973,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libfgauge_gm30",
@@ -10462,6 +10464,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libeffectproxy",
     owner: "advan",
@@ -10485,6 +10488,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libhapticgenerator",

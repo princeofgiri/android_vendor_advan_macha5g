@@ -1126,7 +1126,6 @@ PRODUCT_PACKAGES += \
     libcvsd_mtk \
     libdecrypt \
     libdynamiclog \
-    libeffects \
     libfgauge_gm30 \
     libfile_op \
     libformatter \
@@ -1402,7 +1401,6 @@ PRODUCT_PACKAGES += \
     libbundlewrapper \
     libdownmix \
     libdynproc \
-    libeffectproxy \
     libhapticgenerator \
     libldnhncr \
     libreverbwrapper \
