@@ -116,12 +116,12 @@
             <Limit name="sample-rate" ranges="8000,11025,12000,16000,22050,24000,32000,44100,48000" />
             <Limit name="bitrate" range="8000-320000" />
         </MediaCodec>
+        <!-- Disabled MTK hardware HEVC decoder to prevent busy loop without kernel vcodec dev node
         <MediaCodec name="c2.mtk.hevc.decoder" type="video/hevc" >
             <Alias name="OMX.MTK.VIDEO.DECODER.HEVC" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="size" min="16x16" max="2560x1440" />
-            <!-- max 2560x1440@30 -->
             <Limit name="block-count" range="1-14400" />
             <Limit name="blocks-per-second" range="1-432000" />
             <Limit name="bitrate" range="1-60000000" />
@@ -136,7 +136,6 @@
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="size" min="16x16" max="2560x1440" />
-            <!-- max 2560x1440@30 -->
             <Limit name="block-count" range="1-14400" />
             <Limit name="blocks-per-second" range="1-432000" />
             <Limit name="bitrate" range="1-60000000" />
@@ -146,6 +145,7 @@
             <Limit name="concurrent-instances" max="1" />
             <Limit name="performance-point-1920x1080" value="30" />
         </MediaCodec>
+        -->
         <MediaCodec name="c2.mtk.mpeg4.decoder" type="video/mp4v-es" >
             <Alias name="OMX.MTK.VIDEO.DECODER.MPEG4" />
             <Limit name="alignment" value="2x2" />
