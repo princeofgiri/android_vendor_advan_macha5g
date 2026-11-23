@@ -1065,7 +1065,6 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
-    libaedv \
     libalsautils-v31 \
     libapmonitor_vendor \
     libapu_mdw \
@@ -1141,14 +1140,12 @@ PRODUCT_PACKAGES += \
     libhevce_sb.ca7.android \
     libicd_decoder \
     libimgsensorca \
-    libion_mtk \
     libion_ulit \
     libipsec_ims_shr \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
     libkeystore-wifi-hidl \
-    libladder \
     libminiui \
     libmml \
     libmmprofile \
@@ -1161,7 +1158,6 @@ PRODUCT_PACKAGES += \
     libmtkhardware_legacy \
     libmtklimiter_vendor \
     libmtknetutils \
-    libmtkperf_client_vendor \
     libmtkproperty \
     libmtkrillog \
     libmtkshifter_vendor \
@@ -1192,12 +1188,10 @@ PRODUCT_PACKAGES += \
     libnvram_sec \
     libnwk_opt_halwrap_vendor \
     libnxp_extamp_intf \
-    libperfctl_vendor \
     libpixelflinger \
     libpkm \
     libpower_timer \
     libpowerhal \
-    libpowerhalwrap_vendor \
     libpqframework \
     libreference-ril \
     librgbwlightsensor \
@@ -1409,8 +1403,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -1426,7 +1418,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
@@ -1708,7 +1699,7 @@ PRODUCT_PACKAGES += \
     libimageio_plat_pipe \
     liblpcnr \
     libmfllcore \
-    libmnl \
+    libmnl_v31 \
     libmsnr \
     libmtkcam.featurepipe.capture \
     libmtkcam.featurepipe.depthmap \
@@ -1788,10 +1779,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.dmc@1.0 \
     vendor.mediatek.hardware.dmc@1.1 \
     vendor.mediatek.hardware.dmc@1.2 \
-    vendor.mediatek.hardware.lbs@1.0 \
-    vendor.mediatek.hardware.log@1.0 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.trustonic.tee.tui@1.0 \
@@ -2026,8 +2013,6 @@ PRODUCT_PACKAGES += \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
-    chipinfo \
-    conninfra_loader \
     dconfig \
     dexecutor \
     dmc_core \
@@ -2042,7 +2027,6 @@ PRODUCT_PACKAGES += \
     gbe \
     getgameserver \
     gsm0710muxd \
-    android.hardware.audio.service.mediatek \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot@1.2-service \
     android.hardware.drm@1.4-service.clearkey \
@@ -2057,14 +2041,12 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.media.omx@1.0-service \
-    android.hardware.memtrack-service.mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.nfc@1.2-service-st \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.sensors@2.0-service.multihal-mediatek \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.2-service-mediatekv2 \
-    android.hardware.vibrator-service.mediatek \
     android.hardware.wifi@1.0-service-lazy \
     hostapd \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6855 \
@@ -2120,7 +2102,6 @@ PRODUCT_PACKAGES += \
     vpud \
     wifi_dump \
     wifimacaddr \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader
 

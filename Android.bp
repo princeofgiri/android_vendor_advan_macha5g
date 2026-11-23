@@ -2547,28 +2547,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "libaedv",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libaedv.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaedv.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libalsautils-v31",
@@ -4320,28 +4298,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "libion_mtk",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libion_mtk.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libion_mtk.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libion_ulit",
@@ -4481,28 +4437,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "libladder",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libladder.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libladder.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libminiui",
@@ -4780,28 +4714,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "libmtkperf_client_vendor",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmtkperf_client_vendor.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtkperf_client_vendor.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libmtkproperty",
@@ -5493,28 +5405,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "libperfctl_vendor",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libperfctl_vendor.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libperfctl_vendor.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libpixelflinger",
@@ -5608,28 +5498,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "libpowerhalwrap_vendor",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libpowerhalwrap_vendor.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpowerhalwrap_vendor.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libpqframework",
@@ -10678,51 +10546,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.bluetooth.audio@2.1",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.bluetooth.audio@2.2",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms@1.0",
@@ -11069,28 +10893,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.netdagent@1.0",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.0",
@@ -16384,7 +16186,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmnl",
+    name: "libmnl_v31",
+    stem: "libmnl",
     owner: "advan",
     strip: {
         none: true,
@@ -17884,77 +17687,9 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.lbs@1.0",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.log@1.0",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.log@1.0.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkradioex@2.0",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
 
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkradioex@3.0",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@1.1",
@@ -20251,31 +19986,7 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "chipinfo",
-    owner: "advan",
-    src: "proprietary/vendor/bin/chipinfo",
-    filename: "chipinfo",
-    soc_specific: true,
-}
 
-cc_prebuilt_binary {
-    name: "conninfra_loader",
-    owner: "advan",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/conninfra_loader",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "dconfig",
@@ -20529,24 +20240,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.audio.service.mediatek",
-    owner: "advan",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.1-service-mediatek",
@@ -20814,24 +20507,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.memtrack-service.mediatek",
-    owner: "advan",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.memtrack-service.mediatek",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks-shim-service-mtk",
@@ -20966,24 +20641,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.vibrator-service.mediatek",
-    owner: "advan",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.wifi@1.0-service-lazy",
@@ -21967,23 +21624,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "wlan_assistant",
-    owner: "advan",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/wlan_assistant",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "wmt_launcher",
