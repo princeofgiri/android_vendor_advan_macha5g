@@ -18218,6 +18218,15 @@ prebuilt_lib {
 }
 
 prebuilt_lib {
+    name: "camera_dip_isp6s",
+    owner: "advan",
+    src: "proprietary/vendor_dlkm/lib/modules/camera_dip_isp6s.ko",
+    filename: "camera_dip_isp6s.ko",
+    sub_dir: "modules",
+    vendor_dlkm_specific: true,
+}
+
+prebuilt_lib {
     name: "camera_eeprom",
     owner: "advan",
     src: "proprietary/vendor_dlkm/lib/modules/camera_eeprom.ko",
@@ -18254,10 +18263,28 @@ prebuilt_lib {
 }
 
 prebuilt_lib {
+    name: "camera_mfb_isp6s",
+    owner: "advan",
+    src: "proprietary/vendor_dlkm/lib/modules/camera_mfb_isp6s.ko",
+    filename: "camera_mfb_isp6s.ko",
+    sub_dir: "modules",
+    vendor_dlkm_specific: true,
+}
+
+prebuilt_lib {
     name: "camera_rsc_isp60",
     owner: "advan",
     src: "proprietary/vendor_dlkm/lib/modules/camera_rsc_isp60.ko",
     filename: "camera_rsc_isp60.ko",
+    sub_dir: "modules",
+    vendor_dlkm_specific: true,
+}
+
+prebuilt_lib {
+    name: "camera_wpe_isp6s",
+    owner: "advan",
+    src: "proprietary/vendor_dlkm/lib/modules/camera_wpe_isp6s.ko",
+    filename: "camera_wpe_isp6s.ko",
     sub_dir: "modules",
     vendor_dlkm_specific: true,
 }

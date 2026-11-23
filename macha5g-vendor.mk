@@ -1816,11 +1816,14 @@ PRODUCT_PACKAGES += \
     c2k_usb_f_via_modem \
     c2k_usb_f_via_pcv \
     cam_qos \
+    camera_dip_isp6s \
     camera_eeprom \
     camera_fdvt_isp51 \
     camera_isp \
     camera_mem \
+    camera_mfb_isp6s \
     camera_rsc_isp60 \
+    camera_wpe_isp6s \
     ccci_auxadc \
     ccci_ccif \
     ccci_dpmaif \

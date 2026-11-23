@@ -149,6 +149,9 @@ camera_rsc_isp60.ko
 camera_fdvt_isp51.ko
 cam_qos.ko
 camera_isp.ko
+camera_dip_isp6s.ko
+camera_mfb_isp6s.ko
+camera_wpe_isp6s.ko
 clk-disable-unused.ko
 mtk-pm-domain-disable-unused.ko
 widevine_driver.ko
