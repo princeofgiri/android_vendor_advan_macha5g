@@ -6,11 +6,11 @@ on post-fs-data
     mkdir /data/vendor/tombstones 0775 system system
 
 on post-fs && property:ro.vendor.aee.convert64=0
-    start aee_aedv
-    start aee_aedv64
+    # start aee_aedv
+    # start aee_aedv64
 
 on post-fs && property:ro.vendor.aee.convert64=1
-    start aee_aedv64_v2
+    # start aee_aedv64_v2
 
 on init
     setprop ro.vendor.aee.build.info customer

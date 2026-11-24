@@ -1,6 +1,7 @@
 service aee_aedv64_v2 /vendor/bin/aee_aedv64_v2
     group root readproc system debuggerd log radio
     writepid /dev/cpuset/system-background/tasks
+    disabled
 
 service aeev_set_last_shutdown_v2 /vendor/bin/aeev_v2 -S
     oneshot
