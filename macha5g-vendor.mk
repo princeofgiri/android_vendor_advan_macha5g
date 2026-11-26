@@ -2026,7 +2026,6 @@ PRODUCT_PACKAGES += \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
     vendor.pri.hardware.biometrics.fingerprint-service.xml \
-    vibrator-mtk-default.xml \
     AgentTest \
     STFlashTool \
     aee_aedv64_v2 \
